@@ -44,20 +44,20 @@ local Window = OrionLib:MakeWindow({Name = "rk脚本", HidePremium = false, Save
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "rk脚本"; Text ="rk脚本"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "吗",
+    Name = "AR",
     Icon = "rbxassetid://2736691058",
     PremiumOnly = false
 
 })
 
-about:AddParagraph("作者QQ0")
-about:AddParagraph("qq群暂时没有")
+about:AddParagraph("倒卖狗你妈死")
+about:AddParagraph("永久免费，持续云更")
 about:AddParagraph("作者rk06")
-about:AddParagraph("缝合脚本集")
+about:AddParagraph("UI不是自己的")
 
 local Tab =Window:MakeTab({
 
-	Name = "作者QQ在这里",
+	Name = "作者没有",
 
 	Icon = "rbxassetid://2736691058",
 
@@ -90,7 +90,7 @@ Tab:AddButton({
 })
 
 OrionLib:MakeNotification({
-	Name = "名",
+	Name = "AR",
 	Content = "欢迎使用免费脚本",
 	Image = "rbxassetid://4483345998",
 	Time = 2
@@ -1128,7 +1128,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub
 
 local Tab = Window:MakeTab({
 
-	Name = "OHIO",
+	Name = "BF",
 
 	Icon = "rbxassetid://4483345998",
 
@@ -1138,11 +1138,12 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 
-	Name = "项目一",	
+	Name = "1",	
 	
 	Callback = function()
 	
-loadstring(game:HttpGet("https://pastebin.com/raw/hkvHeHed",true))()	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
+    	
 	
 	end
 
@@ -1150,7 +1151,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/hkvHeHed",true))()
 
 Tab:AddButton({
 
-	Name = "项目二",	
+	Name = "2",	
 	
 	Callback = function()
 	
