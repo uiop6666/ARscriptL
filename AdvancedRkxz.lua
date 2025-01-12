@@ -1,3 +1,4 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "by rk06", 	Text = "加载脚本", 	Duration = 10 })
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
@@ -39,12 +40,12 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "rk脚本", HidePremium = false, SaveConfig = true,IntroText = "rk脚本", ConfigFolder = "rk脚本"})
+local Window = OrionLib:MakeWindow({Name = "AR脚本", HidePremium = false, SaveConfig = true,IntroText = "AR脚本", ConfigFolder = "AR脚本"})
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "rk脚本"; Text ="rk脚本"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "AR脚本"; Text ="AR脚本"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "AR",
+    Name = "信息",
     Icon = "rbxassetid://2736691058",
     PremiumOnly = false
 
@@ -57,7 +58,7 @@ about:AddParagraph("UI不是自己的")
 
 local Tab =Window:MakeTab({
 
-	Name = "作者没有",
+	Name = "作者没有q",
 
 	Icon = "rbxassetid://2736691058",
 
@@ -67,7 +68,7 @@ local Tab =Window:MakeTab({
 
 Tab:AddButton({
 
-	Name = "复制作者QQ",
+	Name = "作者无q",
 
 	Callback = function()
 
@@ -79,7 +80,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 
-	Name = "复制QQ群",
+	Name = "无QQ群",
 
 	Callback = function()
 
@@ -1155,7 +1156,7 @@ Tab:AddButton({
 	
 	Callback = function()
 	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.lua",true))()	
+getgenv().Team = "Pirates"loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()	
 	
 	end
 					
