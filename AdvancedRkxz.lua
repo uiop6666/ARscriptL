@@ -294,7 +294,7 @@ loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
 
 Tab:AddButton({
 
-	Name = "让别让别人控制自己",
+	Name = "让别人控制自己",
 
 	Callback = function()
 
@@ -854,7 +854,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 
-	Name = "BF",
+	Name = "火箭发射",
 
 	Icon = "rbxassetid://4483345998",
 
@@ -864,11 +864,11 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 	
-	Name = "自动刷级",	
+	Name = "1",	
 	
 	Callback = function()
 	
-loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()	
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/321_blast_off_simulator')))()	
 	
 	end
 
@@ -876,11 +876,23 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Scri
 
 Tab:AddButton({
 	
-	Name = "汉化版",	
+	Name = "2",	
 	
 	Callback = function()
 	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.lua", true))()
+loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
+
+	end
+
+})
+
+Tab:AddButton({
+	
+	Name = "3",	
+	
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/jm-/refs/heads/main/jm%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84%E9%87%8D%E5%81%9A(1).lua"))()
 	
 	end
 
@@ -888,23 +900,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UW
 
 Tab:AddButton({
 	
-	Name = "项目三",	
+	Name = "落叶",	
 	
 	Callback = function()
 	
-loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
-	
-	end
-
-})
-
-Tab:AddButton({
-	
-	Name = "Zen Hub",	
-	
-	Callback = function()
-	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+getgenv().LS="落叶中心"loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/Deciduous-center-LS/main/%E8%90%BD%E5%8F%B6%E4%B8%AD%E5%BF%83%E6%B7%B7%E6%B7%86.txt"))()
 	
 	end	
 	
